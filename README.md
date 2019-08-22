@@ -10,9 +10,9 @@ This repository contains a Dockerfile to build a Docker Image for Redis in CentO
 
 docker pull zokeber/redis:latest
 
-Create and running a container
+# Create and running a container
 
-Create container:
+# Create container:
 
 For Master:
 docker create -it -p 6379:6379 --name master-redis zokeber/redis
@@ -20,7 +20,7 @@ docker create -it -p 6379:6379 --name master-redis zokeber/redis
 For Slave:
 docker create -it -p 6379:6379 --name slave-redis zokeber/redis
 
-Start container:
+# Start container:
 
 docker start master-redis
 
