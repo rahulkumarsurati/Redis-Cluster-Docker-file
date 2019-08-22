@@ -34,7 +34,7 @@ docker start slave-redis
  
  *slaveof your_redis_master_ip 6379*
  
- ***Now save this change, and exit the file.Next, restart the Docker container.***
+ ***Now save this change, and exit the file.Next, restart the slave-redis Docker container.***
  
 
 
