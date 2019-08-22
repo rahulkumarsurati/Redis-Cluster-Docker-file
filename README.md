@@ -30,9 +30,9 @@ docker start slave-redis
 
  ***Open /etc/redis.conf with your favorite text editor:***
  
- ***Edit the following lines***
+ ***Edit the following line***
  
- ***slaveof your_redis_master_ip 6379***
+ *slaveof your_redis_master_ip 6379*
  
  ***Now save this change, and exit the file.Next, restart the Docker container.***
  
