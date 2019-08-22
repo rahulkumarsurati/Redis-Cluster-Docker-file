@@ -23,7 +23,7 @@ We need to make some changes that allow our slave server to connect to our maste
  
  Edit the following lines
  
- slaveof your_redis_master_ip 6379
+ *slaveof your_redis_master_ip 6379*
  
  Now save these changes, and exit the file.Next, restart the Docker container.
  
