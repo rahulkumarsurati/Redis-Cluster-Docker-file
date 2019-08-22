@@ -17,7 +17,8 @@ docker pull zokeber/redis:latest
 For Master:
 docker create -it -p 6379:6379 --name master-redis zokeber/redis
 
-(We need to make some changes that allow our slave server to connect to our master instance:
+We need to make some changes that allow our slave server to connect to our master instance:
+
  Open /etc/redis.conf with your favorite text editor:
  
  Edit the following lines
