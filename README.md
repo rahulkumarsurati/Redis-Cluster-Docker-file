@@ -26,13 +26,13 @@ docker start master-redis
 
 docker start slave-redis
 
-***We need to make some changes that allow our slave server to connect to our master instance:
+***We need to make some changes that allow our slave server to connect to our master instance:***
 
- ***Open /etc/redis.conf with your favorite text editor:
+ ***Open /etc/redis.conf with your favorite text editor:***
  
- ***Edit the following lines
+ ***Edit the following lines***
  
- ***slaveof your_redis_master_ip 6379
+ ***slaveof your_redis_master_ip 6379***
  
  ***Now save this change, and exit the file.Next, restart the Docker container.***
  
