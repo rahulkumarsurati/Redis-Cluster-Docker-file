@@ -2,11 +2,11 @@
 
 This repository contains a Dockerfile to build a Docker Image for Redis in CentOS 7.
 
-Base Docker Image
+# Base Docker Image
 
-zokeber/centos  => https://hub.docker.com/r/zokeber/centos/
+[zokeber/centos](https://hub.docker.com/r/zokeber/centos/)
 
-Usage
+# Usage
 
 docker pull zokeber/redis:latest
 
